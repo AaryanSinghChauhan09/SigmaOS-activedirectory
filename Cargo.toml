@@ -3,8 +3,13 @@ name = "SigmaOS-activedirectory"
 version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"
-description = "SigmaOS component - part of multi-repository architecture"
+description = "SigmaOS activedirectory component"
 
 [lib]
 name = "activedirectory"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
